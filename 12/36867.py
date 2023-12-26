@@ -14,3 +14,4 @@ for x1 in range(100):
             if s.count('1') == 26 and s.count('2') == 54 and s.count('3') == 48:
                 print(x1 + x2 + x3 + 2)
 
+
