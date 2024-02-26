@@ -5,6 +5,5 @@ def F(a, b):
        return F(a-b,b)
     if b>a:
         return F(b,a)
-for a in range(123456798,1234):
-    if F(a,15) == 1:
-        print(a)
+for a in range(15,31):
+    print(a,F(a,15))
