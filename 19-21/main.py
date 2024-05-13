@@ -70,6 +70,4 @@ def game2(heap, moves, to):
     return any(h) if (moves + 1) % 2 == to % 2 else all(h)
 
 
-print(f'20: {[s for s in range(1, 106) if not game2(s, 0, 1) and game2(s, 0, 3)]}')
-print(f'21: {min(s for s in range(1, 106) if not game2(s, 0, 2) and game2(s, 0, 4))}')
 
